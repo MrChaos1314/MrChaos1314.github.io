@@ -79911,12 +79911,24 @@ $0(){var s=this.a,r=t.X
 if(A.ee(s,r).b.a!=="/news")A.hi(s,"/news",r)},
 $S:0}
 A.a96.prototype={
-$0(){var s=0,r=A.R(t.H),q=this,p,o
-var $async$$0=A.S(function(a,b){if(a===1)return A.O(b,r)
-while(true)switch(s){case 0:p=q.a
-o=t.N
-A.SH(A.tm(null,"lukasEmail@email.cool",p.adu(A.aw(["subject",p.d.a.a,"body",p.r.a.a+"\n\nHierrunter k\xf6nnen Sie mich erreichen: \n\nTelefon: "+p.f.a.a+"\nEmail: "+p.e.a.a],o,o)),null,"mailto"),"_self")
-return A.P(null,r)}})
+$0(){var s=0,r=A.R(t.H),q=1,p,o=this,n,m,l,k
+var $async$$0=A.S(function(a,b){if(a===1){p=b
+s=q}while(true)switch(s){case 0:q=3
+n=o.a
+m=t.N
+s=6
+return A.V(A.SH(A.tm(null,"lukasEmail@email.cool",n.adu(A.aw(["subject",n.d.a.a,"body",n.r.a.a+"\n\nHierrunter k\xf6nnen Sie mich erreichen: \n\nTelefon: "+n.f.a.a+"\nEmail: "+n.e.a.a],m,m)),null,"mailto"),"_self"),$async$$0)
+case 6:q=1
+s=5
+break
+case 3:q=2
+k=p
+s=5
+break
+case 2:s=1
+break
+case 5:return A.P(null,r)
+case 1:return A.O(p,r)}})
 return A.Q($async$$0,r)},
 $S:18}
 A.a0V.prototype={
