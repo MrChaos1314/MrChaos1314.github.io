@@ -79915,9 +79915,8 @@ $0(){var s=0,r=A.R(t.H),q=this,p,o
 var $async$$0=A.S(function(a,b){if(a===1)return A.O(b,r)
 while(true)switch(s){case 0:p=q.a
 o=t.N
-s=2
-return A.V(A.SH(A.tm(null,"lukasEmail@email.cool",p.adu(A.aw(["subject",p.d.a.a,"body",p.r.a.a+"\n\nHierrunter k\xf6nnen Sie mich erreichen: \n\nTelefon: "+p.f.a.a+"\nEmail: "+p.e.a.a],o,o)),null,"mailto"),"_self"),$async$$0)
-case 2:return A.P(null,r)}})
+A.SH(A.tm(null,"lukasEmail@email.cool",p.adu(A.aw(["subject",p.d.a.a,"body",p.r.a.a+"\n\nHierrunter k\xf6nnen Sie mich erreichen: \n\nTelefon: "+p.f.a.a+"\nEmail: "+p.e.a.a],o,o)),null,"mailto"),"_self")
+return A.P(null,r)}})
 return A.Q($async$$0,r)},
 $S:18}
 A.a0V.prototype={
